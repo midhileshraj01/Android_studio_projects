@@ -31,12 +31,12 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  late WebViewController cgpt;
+  late WebViewController collegesite;
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-    cgpt = WebViewController()
+    collegesite = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
       ..loadRequest(Uri.parse('https://www.cethalassery.ac.in/'));
 
@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
 
-        body:WebViewWidget(controller: cgpt,)
+        body:WebViewWidget(controller: collegesite,)
     );
   }
 }
