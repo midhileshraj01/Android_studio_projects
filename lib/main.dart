@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
     cgpt = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
-      ..loadRequest(Uri.parse('https://chat.openai.com/'));
+      ..loadRequest(Uri.parse('https://www.cethalassery.ac.in/'));
 
 
 
