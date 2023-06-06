@@ -34,15 +34,11 @@ class _MyHomePageState extends State<MyHomePage> {
   late WebViewController collegesite;
   @override
   void initState() {
-    // TODO: implement initState
+    //\\//\\ || | ) ||-|| || ||_ ||= S  TODO: implement initState
     super.initState();
     collegesite = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
       ..loadRequest(Uri.parse('https://www.cethalassery.ac.in/'));
-
-
-
-
   }
 
 
